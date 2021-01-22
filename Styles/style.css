@@ -1,0 +1,74 @@
+body {
+    background-color: lightgray;
+    width: 100%;
+
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    grid-template-rows: 40% 10% 50%;
+    grid-gap: 15px;
+   
+}
+
+.intro {
+    grid-area: 1/2/2/3;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+
+
+.links {
+    grid-area: 2/2/3/3;
+    background-color: white;
+    text-align: center;
+}
+
+.films {
+    grid-area: 3/2/4/3;
+    background-color: white;
+    text-align: center;
+
+
+}
+
+#foto > img {
+    border-radius: 50%;
+
+}
+#introduction > h1{
+    font-size: 20pt;
+    color: tomato;
+}
+
+
+#introduction > h2{
+    font-size: 13pt;
+
+}
+#introduction > p{
+    text-align: start;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 2em;
+}
+
+#introduction button {
+    background-color: tomato;
+    color:white;
+    font-weight: bolder;
+    padding: 17px;
+}
+
+.links {
+    display: inline-block;
+}
+
+#space > img {
+    float:left;
+}
+
+
