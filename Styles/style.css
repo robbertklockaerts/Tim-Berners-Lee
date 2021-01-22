@@ -1,14 +1,17 @@
 body {
     background-color: lightgray;
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
+    color: rgb(112, 106, 106);
 
 }
 
-.layout {
+.wrapper {
     display: grid;
     grid-template-columns: 25% 50% 25%;
     grid-template-rows: 40% 10% 50%;
     grid-gap: 15px;
+    
    
 }
 
@@ -17,6 +20,9 @@ body {
     background-color: white;
     text-align: center;
     padding-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0px #a09b9b;
+    
 
 }
 
@@ -25,20 +31,42 @@ body {
     grid-area: 2/2/3/3;
     background-color: white;
     text-align: center;
+    height: 100px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0px #a09b9b;
+
+    
+}
+
+.links ul li {
+    display:inline;
+    padding: 10px;
+    text-align: justify;
+    
+    
+    
 }
 
 .films {
     grid-area: 3/2/4/3;
     background-color: white;
     text-align: center;
+    margin-bottom: auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 0px #a09b9b;
+
 
 
 }
 
 #foto > img {
     border-radius: 50%;
+    border: 6px solid #e8eae6;
+    margin-top: 20px;
+  
 
 }
+
 #introduction > h1{
     font-size: 20pt;
     color: tomato;
@@ -51,8 +79,8 @@ body {
 }
 #introduction > p{
     text-align: start;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
     line-height: 2em;
 }
 
@@ -61,14 +89,79 @@ body {
     color:white;
     font-weight: bolder;
     padding: 17px;
+    border-radius: 10%;
 }
 
-.links {
-    display: inline-block;
+mark{
+    background-color: #e8eae6;
+    color: #707070;
+
 }
 
-#space > img {
-    float:left;
+
+.films h2{
+    text-align: center;
+    font-size: small;
+    font-weight: bolder;
+    font-size: 11pt;
 }
 
+.films p{
+    text-align: left;
+    margin-left: 10px;
+    margin-right: 20px;
+    font-size: smaller;
+    
+}
 
+#space img{
+    float: left;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#monsieur img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: left;
+
+}
+.films h1{
+    margin-bottom: 50px;
+
+}
+
+.films h2{
+    margin-bottom: 40px;
+}
+
+.films p{
+    margin-top 10px;
+    margin-botom: 20px;
+}
+#alien img{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    clear: left;
+
+}
+.films > #monsieur h2{
+    margin-bottom: 30px;
+    margin-top: 70px;
+}
+
+.films >#alien h2{
+    margin-top: 99px;
+    margin-bottom: 25px;
+
+}
+
+.films > #alien p{
+    margin-bottom: 80px;
+}
